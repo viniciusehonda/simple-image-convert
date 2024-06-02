@@ -1,5 +1,8 @@
 # Simple Image Converter
 
-<img src="https://github.com/viniciusehonda/simple-image-convert/blob/main/resources/logo.png" alt="logo" width="450" />
+<img src="https://github.com/viniciusehonda/simple-image-convert/blob/main/resources/logo.png" alt="logo" width="450" height="350" />
 
-## Just a simple image converter project
+Just a simple image converter project
+
+Supported formats:
+- WebP to PNG
