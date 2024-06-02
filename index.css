@@ -1,0 +1,81 @@
+body {
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #121212;
+    color: white;
+}
+
+.title-wrapper {
+    justify-content: center;
+    display: flex;
+}
+
+.options-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    width: 350px;
+    cursor: pointer;
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-convert {
+    background-color: #4CAF50;
+}
+
+.btn-convert:disabled {
+    opacity: 0.4;
+}
+
+.btn-download {
+    background-color: #000985;
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-card {
+    display: flex;
+    width: 50vw;
+    height: 250px;
+    border: 3px dashed gray;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    margin: 10px auto 10px auto;
+}
+
+.input-card.drag-over {
+    border: 3px dashed #45a049 !important;
+}
+
+.input-label {
+    margin: auto;
+}
+
+.file-input {
+    display: none;
+}
+
+.download-wrapper {
+    display: flex;
+    justify-content: center;
+}
