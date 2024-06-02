@@ -73,6 +73,10 @@ function downloadFile(e) {
     link.click();
 }
 
+function generateRandomName() {
+    return `${crypto.randomUUID().toString()}.png`
+}
+
 function onBtnConvertClick(e) {
 
     e.preventDefault();
@@ -96,7 +100,7 @@ function onBtnConvertClick(e) {
                 canvas.toBlob(function (blob) {
                     const url = URL.createObjectURL(blob);
                     const link = document.getElementById('downloadLink');
-                    link.download = file.name;
+                    link.download = generateRandomName();
                     link.href = url;
                     const btnDownload = document.getElementById('btn-download');
                     btnDownload.style.display = "block";
